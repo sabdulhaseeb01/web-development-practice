@@ -1,0 +1,146 @@
+.maindiv {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    text-align: center;
+}
+.heading {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    gap: 12px;
+    box-shadow: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+    .form input {
+        font-size: x-large;
+        border-radius: 10px;
+        border: 1px solid grey;
+        padding-bottom: 10px;
+        padding: 10px 15px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+        flex: 1;
+
+
+        
+    }
+    .form button {
+        background-color: lightseagreen;
+        color: white;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        white-space: nowrap;
+        cursor: pointer;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    }
+.form button:hover {
+    background-color: rgb(78, 202, 196);
+}
+
+    .calculations {
+        background-color: white;
+        text-align: center;
+      padding: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    gap: 12px;
+    box-shadow: 10px;
+    font-size: 20px ;
+     box-shadow: 10px;
+           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .ClearBtn {
+        background-color: rgb(175, 91, 91);
+        font-size: 20px;    
+   
+         padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border: none;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    }
+    .ClearBtn:hover {
+        background-color:rgb(243, 129, 129)  ;
+    }
+    .TaskList {
+list-style: none;
+padding: 0;
+width: 50%;
+margin: 20px auto;
+    }
+ /* Ensure the list takes up the same width as your form */
+.TaskList {
+    list-style: none;
+    padding: 0;
+    width: 50%;         /* Matches your form width */
+    margin: 20px auto;
+    font-size: 30px;  
+    font-weight: bold;/* Centers the list on the page */
+}
+
+/* Force space between the task name on the left and buttons on the right */
+.TaskList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Pushes span to left, button-group to right */
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Push button group to the absolute far right */
+.buttongroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.buttongroup button {
+    background-color: rgb(62, 68, 150);
+    color: white;
+    font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        white-space: nowrap;
+cursor: pointer;
+
+
+}
+.buttongroup button:hover {
+    background-color: rgb(86, 94, 211);
+}
+
+@media screen (min-width:720px) {
+    .TaskList li {
+    flex-direction:column;
+}
+    
+}
